@@ -25,4 +25,5 @@ public class PessoaJuridica extends Pessoa{
     public int hashCode() {
         return Objects.hash(cnpj);
     }
+
 }
