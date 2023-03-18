@@ -26,4 +26,8 @@ public class PessoaJuridica extends Pessoa{
         return Objects.hash(cnpj);
     }
 
+    public void validarDocumento(){
+        System.out.println ("Validando CNPJ");
+    }
+
 }
